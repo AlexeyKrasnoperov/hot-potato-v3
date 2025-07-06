@@ -5,5 +5,5 @@ export default buildModule("HotPotatoModule", (m) => {
 
   m.call(hotPotato, "createPotato", [0x0]);
 
-  return { potatoes: hotPotato.potatoes };
+  return { score: hotPotato };
 });
